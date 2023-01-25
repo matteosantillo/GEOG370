@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "lenoirpoint",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "name": "Lenoir Hall" }, "geometry": { "type": "Point", "coordinates": [ -79.048789773749021, 35.910599437623624 ] } }
+]
+}
