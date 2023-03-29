@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8</title>
+</head>
+<body>
+<h1>Homework 8: Geoproccessing Analysis </h1>
+<h2>Matteo Santillo</h2>
+<h3>The following map attempts to answer the folling question: How many accidents occur within 150 meters of a pedestrian crosswalk?  </h3>
+<h4>For this map I analyzed two data sets. One data set depicted the amount of crosswalks in West Australia. The other data set depicted the amount of accidents that occured at intersections. With this data I wanted to see how many of these car accidents occurred within 150 meters of a crosswalk. To answer this question I used two different methods in QGIS. I created a buffer of 150 meters around each crosswalk. I then intersected the points where car accidents occured at intersections and analyzed the overlap. The map is able to depict which accidents occured within the 150m buffer of each crosswalk.  </h4>
+<!-- Your map goes here -->
+<a href="./HW8/hw8.png">
+    <img src="./HW8/hw8.png" alt="your map" width='500px'>
+    </a>
+
+<!-- Link to your geojson in Github and you CSV -->
+<h1>Data used for this project: </h1>
+<h2>Pedestrian Crossings: https://hub.arcgis.com/datasets/mainroads::pedestrian-crossings/explore?location=-31.823579%2C118.253400%2C7.10 </h2>
+<h3>Intersection Car Accidents: https://catalogue.data.wa.gov.au/dataset/mrwa-crash-summary-for-intersections-last-5-years-   </h3>
+<h4> Australian Roads: https://data.gov.au/dataset/ds-sa-4cc17ac3-ce49-4525-971b-6122023b8937/details</h4>
+</html>
